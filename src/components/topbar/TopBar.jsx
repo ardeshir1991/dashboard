@@ -14,15 +14,15 @@ const TopBar = () => {
             </div>
             <div className="topRight">
                 <div className="topbar-icon-container">
-                    <NotificationsNoneIcon style={{color: '#2ecc71'}}/>
+                    <NotificationsNoneIcon style={{color: '#636e72'}}/>
                     <span className="badgeIcon">2</span>
                 </div>
                 <div className="topbar-icon-container">
-                    <LanguageIcon style={{color: '#2ecc71'}}/>
+                    <LanguageIcon style={{color: '#636e72'}}/>
                     <span className="badgeIcon">2</span>
                 </div>
                 <div className="topbar-icon-container">
-                    <SettingsIcon style={{color: '#2ecc71'}}/>
+                    <SettingsIcon style={{color: '#636e72'}}/>
                 </div>
                 <img src="./images/profile.jpeg" alt="" />
             </div>
