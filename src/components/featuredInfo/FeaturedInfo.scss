@@ -1,0 +1,46 @@
+.feature-container{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+    .featured-items{
+        flex: 1;
+        padding: 20px;
+        margin: 0px 20px;
+        cursor: pointer;
+        border-radius: 10px;
+        -webkit-box-shadow: -3px 3px 14px 1px #000000; 
+        box-shadow: -3px 3px 14px 1px #000000;
+        .title{
+            font-size: 20px;
+        }
+        .money-container{
+            margin: 10px 0;
+            display: flex;
+            align-items: center;
+            .price{
+                font-size: 30px;
+                font-weight: bold;
+            }
+            .rate{
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                margin-left: 30px;
+                color: #34495e;
+                .feature-icon{
+                    color: #e74c3c;
+                    font-size: 15px;
+                    margin-left: 5px;
+                }
+                .feature-icon.posetive{
+                    color: #2ecc71;
+                }
+            }
+        }
+        .compare{
+            font-size: 15px;
+            color: #7f8c8d;
+        }
+    }
+}
