@@ -4,13 +4,14 @@
     justify-content: space-between;
     margin-top: 10px;
     .featured-items{
+        background-color: #dfe6e9;
         flex: 1;
         padding: 20px;
         margin: 0px 20px;
         cursor: pointer;
         border-radius: 10px;
-        -webkit-box-shadow: -3px 3px 14px 1px #000000; 
-        box-shadow: -3px 3px 14px 1px #000000;
+        -webkit-box-shadow: -1px 1px 7px -1px #000000; 
+        box-shadow: -1px 1px 7px -1px #000000;
         .title{
             font-size: 20px;
         }
