@@ -1,3 +1,4 @@
+import Chart from '../../components/chart/Chart';
 import FeaturedInfo from '../../components/featuredInfo/FeaturedInfo';
 import './Home.scss';
 
@@ -5,6 +6,7 @@ const Home = () => {
   return (
     <div className='home'>
         <FeaturedInfo />
+        <Chart />
     </div>
   )
 }
