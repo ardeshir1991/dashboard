@@ -1,3 +1,7 @@
 .home{
     flex: 6;
+    .home-widgets{
+        display: flex;
+        padding: 20px;
+    }
 }
