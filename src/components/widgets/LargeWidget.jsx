@@ -6,7 +6,7 @@ const LargeWidget = () => {
     return <button className={'lgWidget-button ' + type}>{type}</button>
   }
   const items = data.users.map(user => (
-    <tr className='lgWidget-info'>
+    <tr key={user.id} className='lgWidget-info'>
       <td className='lgWidget-user'>
         <img src={user.image} alt="" />
         <span>{user.name}</span>
