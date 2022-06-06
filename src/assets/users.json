@@ -1,10 +1,10 @@
 {
     "users":[
-        {"id": 1, "name":"ardeshir esmaili", "image":"./images/profile.jpeg", "title":"Web Developer", "status":"Approved"},
-        {"id": 2, "name":"sahar mokhtari", "image":"./images/profile2.jpg", "title":"Civil Engineer", "status":"Approved"},
-        {"id": 3, "name":"parisa sazesh", "image":"./images/profile3.jpg", "title":"Environmental Engineer", "status":"Pending"},
-        {"id": 4, "name":"reza esmaili", "image":"./images/profile4.jpg", "title":"Web Developer", "status":"Declined"},
-        {"id": 5, "name":"khashayar esmaili", "image":"./images/profile5.jpg", "title":"Doctor", "status":"Approved"},
-        {"id": 6, "name":"khalil esmaili", "image":"./images/profile6.jpg", "title":"Doctor", "status":"Approved"}
+        {"id": 1, "name":"ardeshir esmaili", "image":"./images/profile.jpeg", "title":"Web Developer", "status":"Approved", "email":"ardeshir@gmail.com", "accountType":"active", "transaction":1640},
+        {"id": 2, "name":"sahar mokhtari", "image":"./images/profile2.jpg", "title":"Civil Engineer", "status":"Approved", "email":"sahar@gmail.com", "accountType":"active", "transaction":1640},
+        {"id": 3, "name":"parisa sazesh", "image":"./images/profile3.jpg", "title":"Environmental Engineer", "status":"Pending", "email":"parisa@gmail.com", "accountType":"active", "transaction":1640},
+        {"id": 4, "name":"khashayar esmaili", "image":"./images/profile4.jpg", "title":"Web Developer", "status":"Declined", "email":"khashayar@gmail.com", "accountType":"active", "transaction":1640},
+        {"id": 5, "name":"reza esmaili", "image":"./images/profile5.jpg", "title":"Doctor", "status":"Approved", "email":"reza@gmail.com", "accountType":"active", "transaction":1640},
+        {"id": 6, "name":"khalil esmaili", "image":"./images/profile6.jpg", "title":"Doctor", "status":"Approved", "email":"khalil@gmail.com", "accountType":"active", "transaction":1640}
     ]
 }
